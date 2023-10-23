@@ -1,0 +1,104 @@
+
+.ntua_vcd_nav_gray{
+  background-color: #474747;
+  height: 45px;
+}
+
+.ntua_vcd_nav_gray img {
+  
+  height: 27px;
+  text-decoration: none;
+vertical-align: middle;
+}
+
+
+.ntua_vcd_nav{
+    background-color: #ffffff;
+}
+.ntua_vcd_nav a {
+  text-decoration: none;
+  color: #000000;
+  display: inline-block;
+  vertical-align: middle;
+ 
+}
+
+.ntua_vcd_nav ul {
+ display: inline-block;
+ padding: 0px;
+ margin: 0;
+ vertical-align: middle;
+ width: calc(100% - 370px);
+ text-align: center;
+ position: relative;
+}
+.ntua_vcd_nav li {
+ display: inline-block;
+  
+}
+
+.ntua_vcd_nav_gray ul {
+  display: inline-block;
+}
+.ntua_vcd_nav_gray .social2 {
+   width:calc(100% - 500px);
+   position: absolute;
+}
+  
+ 
+.ntua_vcd_nav img {
+  height: 55px;
+   margin: 4px;
+  
+}
+
+.ntua_vcd_nav ul li a {
+  padding: 30px;
+   margin: 4px;
+}
+.ntua_vcd_nav ul li button {
+  padding: 3px;
+  border-radius: 60px;
+
+}
+  .ntua_vcd_nav_title  {
+    text-decoration: none;
+   margin: 40px;
+ text-align: center;
+  
+  
+}
+.ntua_vcd_nav_subtitle  {
+    text-decoration: none;
+   margin: 40px;
+ text-align: center;
+  
+}
+.ntua_vcd_nav ul li a:hover {
+ 
+  border-radius: 60px;
+background-color: #D8DFD0;
+}
+
+
+
+.button{
+text-align: center;
+display: flex;
+justify-content:center ;
+}
+.button1{
+background-color: #AD343E;
+color: #ffffff;
+font-size: 15px;
+border-radius: 50px;
+
+
+}
+.button2{
+background-color: #ffffff;
+color: #000000;
+font-size: 15px;
+border-radius: 50px;
+
+}
