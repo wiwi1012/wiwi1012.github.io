@@ -1,104 +1,123 @@
-
-.ntua_vcd_nav_gray{
+.top {
   background-color: #474747;
-  height: 45px;
+  display: flex;
+  padding: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  align-items: center;
+}
+.top_bar {
+  background-color: #474747;
+  display: inline-flex;
+  align-items: center;
+}
+.number {
+  padding-left: 10px;
+}
+.mail {
+  padding-left: 30px;
+}
+.social {
+  background-color: #474747;
+  width: calc(100% - 450px);
+  display: inline-flex;
+  flex-direction: row-reverse;
 }
 
-.ntua_vcd_nav_gray img {
-  
-  height: 27px;
-  text-decoration: none;
-vertical-align: middle;
-}
-
-
-.ntua_vcd_nav{
-    background-color: #ffffff;
-}
-.ntua_vcd_nav a {
-  text-decoration: none;
-  color: #000000;
-  display: inline-block;
+.logo {
+  background-color: #f9f9f7;
+  width: 400px;
+  display: inline-flex;
   vertical-align: middle;
- 
 }
 
-.ntua_vcd_nav ul {
- display: inline-block;
- padding: 0px;
- margin: 0;
- vertical-align: middle;
- width: calc(100% - 370px);
- text-align: center;
- position: relative;
+.hero {
+  background-color: #f9f9f7;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 10px;
+  padding-left: 100px;
 }
-.ntua_vcd_nav li {
- display: inline-block;
-  
+.menu {
+  padding-left: 16%;
+  display: inline-flex;
+}
+.menu ul {
+  display: inline-flex;
+  text-decoration: none;
+  vertical-align: middle;
+  align-items: center;
+}
+.menu ul li a {
+  color: #000000;
+  vertical-align: middle;
+  padding: 28px;
+  margin: 2px;
+  text-decoration: none;
+  align-items: center;
+  flex-direction: row;
 }
 
-.ntua_vcd_nav_gray ul {
-  display: inline-block;
-}
-.ntua_vcd_nav_gray .social2 {
-   width:calc(100% - 500px);
-   position: absolute;
-}
-  
- 
-.ntua_vcd_nav img {
-  height: 55px;
-   margin: 4px;
-  
-}
+.menu ul li button {
+  color: #000000;
 
-.ntua_vcd_nav ul li a {
-  padding: 30px;
-   margin: 4px;
-}
-.ntua_vcd_nav ul li button {
-  padding: 3px;
+  padding: 18px;
+  margin: 2px;
+  text-decoration: none;
+  align-items: center;
+  flex-direction: row;
   border-radius: 60px;
-
+  padding: 10px 10px 10px 10px;
+  padding-inline: 6px;
+  font-weight: 700;
+  margin-left: 150px;
 }
-  .ntua_vcd_nav_title  {
-    text-decoration: none;
-   margin: 40px;
- text-align: center;
-  
-  
+.ntua_vcd_nav_title {
+  text-decoration: none;
+  padding-top: 100px;
+  margin: 70px;
+  text-align: center;
 }
-.ntua_vcd_nav_subtitle  {
-    text-decoration: none;
-   margin: 40px;
- text-align: center;
-  
-}
-.ntua_vcd_nav ul li a:hover {
- 
-  border-radius: 60px;
-background-color: #D8DFD0;
+.ntua_vcd_nav_subtitle {
+  text-decoration: none;
+  margin: 40px;
+  text-align: center;
 }
 
-
-
-.button{
-text-align: center;
-display: flex;
-justify-content:center ;
+.menu ul li :hover {
+  border-radius: 90px;
+  padding: 0px 10px 0px 10px;
+  background-color: #d8dfd0;
 }
-.button1{
-background-color: #AD343E;
-color: #ffffff;
-font-size: 15px;
-border-radius: 50px;
 
-
+.background {
+  width: 100vw;
+  height: 100vw;
 }
-.button2{
-background-color: #ffffff;
-color: #000000;
-font-size: 15px;
-border-radius: 50px;
-
+.button {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.button :hover {
+  background-color: #ad343e;
+  color: #ffffff;
+  outline: none;
+}
+.button1 {
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 15px;
+  border-radius: 50px;
+  margin: 30px;
+  padding: 20px;
+}
+.button2 {
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 15px;
+  border-radius: 50px;
+  margin: 30px;
+  padding: 20px;
 }
