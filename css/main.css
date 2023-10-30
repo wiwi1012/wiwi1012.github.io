@@ -91,10 +91,13 @@
   background-color: #d8dfd0;
 }
 
-.background {
-  width: 100vw;
-  height: 100vw;
+body {
+  background-image: url(../img/image\ 110.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 49px;
 }
+
 .button {
   text-align: center;
   display: flex;
@@ -103,7 +106,7 @@
 .button :hover {
   background-color: #ad343e;
   color: #ffffff;
-  outline: none;
+  border-style: none;
 }
 .button1 {
   background-color: #ffffff;
