@@ -1,0 +1,161 @@
+body {
+  background: #eeeeee;
+  width: 1920px;
+}
+img {
+  top: 599px;
+  position: absolute;
+}
+.navigation {
+  background-color: black;
+  height: 100px;
+}
+
+.navigation .logo img {
+  width: 127px;
+}
+
+.navigation .logo {
+  position: absolute;
+  top: 18px;
+  left: 29px;
+}
+
+.navigation .menu a {
+  text-decoration: none;
+  color: #fff4cb;
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  letter-spacing: 2.5px;
+}
+
+.navigation .menu {
+  width: 400px;
+  position: absolute;
+  top: 53px;
+  left: calc(100vw - 580px);
+}
+.navigation .menu li {
+  display: inline-block;
+  padding: 0px 15px;
+}
+.footer {
+  left: 894px;
+  top: 1050px;
+  position: absolute;
+  color: black;
+  font-size: 12px;
+  font-family: Inter;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.content .white {
+  width: 750px;
+  height: 796px;
+  left: 585px;
+  top: 173px;
+  position: absolute;
+  background: white;
+}
+.content .white img {
+  width: 290px;
+  height: 414px;
+  left: 390px;
+  top: 350px;
+  position: absolute;
+}
+.content .white li img {
+  width: 218px;
+  height: 102px;
+  left: 246px;
+  top: 62px;
+  position: absolute;
+}
+.content .white li p {
+  width: 262px;
+  height: 102px;
+  left: 107px;
+  top: 335px;
+  position: absolute;
+  font-size: 24px;
+  font-family: Noto Sans TC;
+  font-weight: 700;
+  word-wrap: break-word;
+  z-index: 999;
+}
+.content .white li p2 {
+  width: 350px;
+  height: 102px;
+  left: 107px;
+  top: 375px;
+  position: absolute;
+  font-size: 24px;
+  font-family: Noto Sans TC;
+  font-weight: 700;
+  word-wrap: break-word;
+  z-index: 998;
+}
+.bigword {
+  left: calc(50vw - 90px);
+  top: 365px;
+  position: absolute;
+  color: black;
+  font-size: 36px;
+  font-family: Noto Sans TC;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+.smallword p2 {
+  width: 362px;
+  left: 779px;
+  top: 429px;
+  position: absolute;
+  color: black;
+  font-size: 18px;
+  font-family: Inter;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+img {
+  width: 100vw;
+  height: 348px;
+  top: 730px;
+  position: absolute;
+}
+
+.firstpart {
+  width: 225px;
+  height: 60px;
+  left: 690px;
+  top: 822px;
+  position: absolute;
+  background: #ffffff;
+  border-radius: 5px;
+  border: 2px black solid;
+  font-size: 18px;
+  font-family: Inter;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+.smoke {
+  width: 265px;
+  height: 265px;
+  opacity: 50%;
+}
+.smoke img {
+  width: 265px;
+  height: 265px;
+  opacity: 50%;
+
+  left: 1070px;
+  top: 388px;
+  position: absolute;
+}
+.grayframe img {
+  width: 330px;
+  height: 154px;
+  left: 642px;
+  top: 474px;
+  position: absolute;
+}
