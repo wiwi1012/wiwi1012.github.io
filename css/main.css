@@ -41,15 +41,16 @@ body {
   padding: 5px;
   border-radius: 50px;
 }
-
+/*分段*/
+/*設定logo樣式*/
 .header .logo .noodle img {
   width: 56px;
 }
 .header .logo .kitchen img {
-  width: 325px;
+  width: 325px; /*~~~~~~~如何嵌入google字體*/
   padding: 8px;
 }
-
+/*設定menu樣式*/
 .header .menu a {
   text-decoration: none;
   color: #2c2f24;
@@ -59,18 +60,18 @@ body {
 .header .menu a:hover {
   background-color: #dbdfd0;
 }
-
+/*設定button樣式*/
 .header button {
   font-size: 16px;
   background-color: #f9f9f7;
   border-radius: 118px;
   border-color: #2c2f24;
-  /*border: 1.5px;
+  /*border: 1.5px;＊//*~~~~~為何無效*/
   font-weight: 600;
   padding: 12px 24px;
   gap: 10px;
 }
-
+/*並排對齊header*/
 .header ul {
   display: inline-block;
 }
@@ -89,7 +90,7 @@ body {
   left: 554.8px;
   top: 11.5px;
   width: 435.6px;
-  text-align: justify; 
+  text-align: justify; /*~~~~~~為何無效*/
 }
 .header .button {
   position: absolute;
@@ -127,7 +128,6 @@ h2 {
   background-color: #f9f9f7;
   border-color: #2c2f24;
   margin: 6px;
-
 }
 .order button:hover {
   background-color: #ad3431;
