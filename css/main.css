@@ -41,16 +41,15 @@ body {
   padding: 5px;
   border-radius: 50px;
 }
-/*分段*/
-/*設定logo樣式*/
+
 .header .logo .noodle img {
   width: 56px;
 }
 .header .logo .kitchen img {
-  width: 325px; /*~~~~~~~如何嵌入google字體*/
+  width: 325px;
   padding: 8px;
 }
-/*設定menu樣式*/
+
 .header .menu a {
   text-decoration: none;
   color: #2c2f24;
@@ -60,18 +59,18 @@ body {
 .header .menu a:hover {
   background-color: #dbdfd0;
 }
-/*設定button樣式*/
+
 .header button {
   font-size: 16px;
   background-color: #f9f9f7;
   border-radius: 118px;
   border-color: #2c2f24;
-  /*border: 1.5px;＊//*~~~~~為何無效*/
+  /*border: 1.5px;
   font-weight: 600;
   padding: 12px 24px;
   gap: 10px;
 }
-/*並排對齊header*/
+
 .header ul {
   display: inline-block;
 }
@@ -90,18 +89,16 @@ body {
   left: 554.8px;
   top: 11.5px;
   width: 435.6px;
-  text-align: justify; /*~~~~~~為何無效*/
+  text-align: justify; 
 }
 .header .button {
   position: absolute;
-  left: 1163.5px;
+  left: 1000px;
   height: 48px;
   top: 3.5px;
   width: 120px;
 }
-/*白色圈圈*/
 
-/*台藝廚房*/
 h2 {
   position: absolute;
   text-align: center;
@@ -111,7 +108,7 @@ h2 {
   gap: 40px;
   font-size: 100px;
 }
-/*快來發現浮州美食*/
+
 .float {
   position: absolute;
   text-align: center;
@@ -119,8 +116,7 @@ h2 {
   top: 516px;
   left: calc(50% - 268.5px);
 }
-/*order button*/
-/*樣式*/
+
 .order button {
   width: 128px;
   height: 64px;
@@ -131,18 +127,18 @@ h2 {
   background-color: #f9f9f7;
   border-color: #2c2f24;
   margin: 6px;
-  /*border: 1.5px;*/
+
 }
 .order button:hover {
   background-color: #ad3431;
   color: #ffffff;
   border-color: #ad3431;
 }
-/*並排*/
+
 .order li {
   display: inline-block;
 }
-/*排排站*/
+
 .order {
   position: absolute;
   top: 620px;
