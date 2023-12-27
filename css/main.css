@@ -127,6 +127,7 @@ h2 {
   background-color: #f9f9f7;
   border-color: #2c2f24;
   margin: 6px;
+  font-weight: 500;
 }
 .order button:hover {
   background-color: #ad3431;
